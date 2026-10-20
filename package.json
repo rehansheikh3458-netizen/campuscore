@@ -1,0 +1,20 @@
+{
+  "name": "campuscore",
+  "version": "1.0.0",
+  "description": "CampusCore — Student Management System",
+  "scripts": {
+    "backend": "cd backend && bun run dev",
+    "frontend": "cd frontend && bun run dev",
+    "seed": "cd backend && bun run bun-seed",
+    "build:frontend": "cd frontend && bun run build"
+  },
+  "keywords": [
+    "student-management-system",
+    "react",
+    "express",
+    "mongodb",
+    "vite"
+  ],
+  "author": "CampusCore Team",
+  "license": "MIT"
+}
