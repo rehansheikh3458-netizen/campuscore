@@ -1,0 +1,3 @@
+# CampusCore
+
+Student Management System
