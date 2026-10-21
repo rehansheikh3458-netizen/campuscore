@@ -1,5 +1,5 @@
 // API service wrapper for backend communication
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://campuscore-api-r8dl.onrender.com/api';
 
 export const getAuthToken = () => localStorage.getItem('campuscore_token');
 
