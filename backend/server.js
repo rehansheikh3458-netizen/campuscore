@@ -24,9 +24,14 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Enable CORS for frontend requests
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://campuscore-virid.vercel.app',
+];
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: allowedOrigins,
     credentials: true,
   })
 );
